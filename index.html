@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="description" content="Star Wars Responsive Challenge">
+  <meta name="keywords" content="StarWars,TradingCards">
+  <meta name="author" content="Nilay Vyas">
   <title>Star Wars Responsive Challenge</title>
 
   <!-- Responsive viewport tag, tells small screens that it's responsive -->
@@ -14,9 +17,79 @@
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
 
   <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles/float-grid.css" />
+  <link rel="stylesheet" href="styles/main.css" />
 
 </head>
 <body>
+  <div class="header">
+    <div class="row">
+      <div class="col-12">
+        <p class="ntitle">Star Wars Characters</p>
+        <p class="sub">Incomplete list</p>
+      </div>
+    </div>
+  </div>
+  <main>
+    <div class="row">
+      <div class="col-4">
+        <div class="add_border">
+          <img src="images/rey_square.png" alt="Rey, Protagonist from Tatooine">
+          <div class="desc">
+            <p class="name">Ray</p>
+            <p>Protagonist, from Tatooine</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="add_border">
+          <img src="images/finn_square.png" alt="Finn, Storm Trooper, befriends Ray">
+          <div class="desc">
+            <p class="name">Finn</p>
+            <p>Storm Trooper, befriends Ray</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="add_border">
+          <img src="images/kylo_square.png" alt="Kylo, Main villain, or is he?">
+          <div class="desc">
+            <p class="name">Kylo</p>
+            <p>Main villain, or is he?</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <div class="row">
+      <div class="col-4">
+        <div class="add_border">
+          <img src="images/poe_square.png" alt="Poe, Neutral pilot">
+          <div class="desc">
+            <p class="name">Poe</p>
+            <p>Neutral pilot</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="add_border">
+          <img src="images/chewbacca_square.png" alt="Chewbacca, A great first mate">
+          <div class="desc">
+            <p class="name">Chewbacca</p>
+            <p>A great first mate</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="add_border">
+          <img src="images/yoda_square.png" alt="Yoda, Wise old Jedi master">
+          <div class="desc">
+            <p class="name">Yoda</p>
+            <p>Wise old Jedi master</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
